@@ -1,20 +1,12 @@
 <mat-toolbar color="primary">
-    <span>My App</span> <!-- Título o logo de la aplicación -->
-  
-    <span class="spacer"></span> <!-- Espaciador para empujar los botones hacia la derecha -->
-  
-    <!-- Botón de Inicio -->
-    <button mat-button routerLink="/">Home</button> <!-- Redirecciona al inicio -->
-  
-    <!-- Menú desplegable -->
-    <button mat-button [matMenuTriggerFor]="menu">Options</button> <!-- Despliega el menú -->
+    <span>ALVARO ISRAEL VALVERDE MUÑOZ</span> 
+    <span class="spacer"></span> 
+    <button mat-button [matMenuTriggerFor]="menu">Datos Personales</button> 
     <mat-menu #menu="matMenu">
-      <button mat-menu-item routerLink="/profile">Profile</button>
-      <button mat-menu-item routerLink="/settings">Settings</button>
-      <button mat-menu-item>Logout</button>
+      <button mat-menu-item routerLink="/contacto">Contacto</button>
+      <button mat-menu-item routerLink="/rsyrepositorio">Redes Sociales y Repositorio</button>
     </mat-menu>
-  
-    <!-- Botón Contacto -->
-    <button mat-button routerLink="/contact">Contact</button> <!-- Redirecciona a la página de contacto -->
+    <button mat-button routerLink="/currprofesional">Curriculum Profesional</button> 
+    <button mat-button routerLink="/curracademico">Curriculum Academico</button> 
   </mat-toolbar>
   
