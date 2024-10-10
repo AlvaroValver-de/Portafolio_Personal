@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <span>My App</span> <!-- Título o logo de la aplicación -->
+  
+    <span class="spacer"></span> <!-- Espaciador para empujar los botones hacia la derecha -->
+  
+    <!-- Botón de Inicio -->
+    <button mat-button routerLink="/">Home</button> <!-- Redirecciona al inicio -->
+  
+    <!-- Menú desplegable -->
+    <button mat-button [matMenuTriggerFor]="menu">Options</button> <!-- Despliega el menú -->
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/profile">Profile</button>
+      <button mat-menu-item routerLink="/settings">Settings</button>
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
+  
+    <!-- Botón Contacto -->
+    <button mat-button routerLink="/contact">Contact</button> <!-- Redirecciona a la página de contacto -->
+  </mat-toolbar>
+  
