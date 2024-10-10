@@ -7,7 +7,7 @@ import { BarraSuperiorComponent } from "./barra-superior/barra-superior.componen
   standalone: true,
   imports: [RouterOutlet, BarraSuperiorComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'Portafolio_Personal';

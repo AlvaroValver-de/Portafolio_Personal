@@ -1,4 +1,19 @@
 .spacer {
     flex: 1 1 auto;
   }
-  
+  .Barra-superior {
+    background-color: #164074; /* Color personalizado */
+    color: #fff; /* Texto en blanco */
+  }
+  .Barra-superior button {
+    color: white; /* Color del texto de los botones */
+    border: #164074; /* Borde blanco alrededor de los botones */
+    /*padding: 8px 16px;  Espaciado dentro de los botones */
+    border-radius: 0px; /* Esquinas redondeadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efecto suave en hover */
+    margin: 15px;
+    height: 100%;
+  }
+  .Barra-superior button:hover {
+    background-color: #2DABE3;
+  }
