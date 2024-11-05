@@ -1,0 +1,8 @@
+.seccion-central {
+    background-color: #f0f8ff; /* Color de fondo */
+    padding: 10px; /* Espaciado interior */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 80%; /* Ancho máximo */
+    margin: 2% auto; /* Centrar la sección */
+  }
