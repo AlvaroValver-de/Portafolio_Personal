@@ -1,5 +1,5 @@
 .marca-de-agua {
-    background-image: url('/public/software-development-gris.png'); /* Ruta de la imagen */
+    background-image: url('/software-development-gris.png'); /* Ruta de la imagen */
     background-repeat: repeat; /* Repite la imagen */
     background-size: contain; /* Ajusta el tamaño de la imagen (opcional) */
     opacity: 0.1; /* Controla la opacidad para que parezca una marca de agua */

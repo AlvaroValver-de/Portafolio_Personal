@@ -5,4 +5,5 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     max-width: 80%; /* Ancho máximo */
     margin: 2% auto; /* Centrar la sección */
+    color: rgb(15, 16, 16);
   }

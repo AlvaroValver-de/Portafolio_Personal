@@ -1,11 +1,17 @@
 <mat-toolbar class="Barra-superior">
-    <span>ALVARO ISRAEL VALVERDE MUÑOZ</span> 
-    <span class="spacer"></span> 
-    <button mat-button [matMenuTriggerFor]="infomenu" >Datos Personales</button> 
-    <mat-menu #infomenu="matMenu" >
-      <button mat-menu-item routerLink="/contacto" style="color: #164074;">Contacto</button>
-      <button mat-menu-item routerLink="/rsyrepositorio" style="color: #164074;">Redes Sociales y Repositorio</button>
-    </mat-menu>
-    <button mat-button routerLink="/currprofesional" >Curriculum Profesional</button> 
-    <button mat-button routerLink="/curracademico"  >Curriculum Academico</button> 
+  <span>ALVARO ISRAEL VALVERDE MUÑOZ</span>
+  <span class="spacer"></span>
+  <button mat-button [matMenuTriggerFor]="infomenu" translate>dates</button>
+  <mat-menu #infomenu="matMenu">
+    <button mat-menu-item routerLink="/contacto" style="color: #164074">
+      Contacto
+    </button>
+    <button mat-menu-item routerLink="/rsyrepositorio" style="color: #164074">
+      Redes Sociales y Repositorio
+    </button>
+  </mat-menu>
+  <button mat-button routerLink="/currprofesional">
+    Curriculum Profesional
+  </button>
+  <button mat-button routerLink="/curracademico">Curriculum Academico</button>
 </mat-toolbar>
