@@ -1,7 +1,9 @@
 <mat-toolbar class="Barra-superior">
-  <span>ALVARO ISRAEL VALVERDE MUÑOZ</span>
+  <span>ALVARO ISRAEL VALVERDE MUÑOZ </span>
   <span class="spacer"></span>
-  <button mat-button [matMenuTriggerFor]="infomenu" translate>dates</button>
+  <button mat-button [matMenuTriggerFor]="infomenu">
+    {{ "dates" | translate }}
+  </button>
   <mat-menu #infomenu="matMenu">
     <button mat-menu-item routerLink="/contacto" style="color: #164074">
       Contacto
